@@ -21,5 +21,5 @@ func main() {
 
 	c := pb.NewGreetServiceClient(conn)
 
-	doSum(c)
+	doGreetManyTimes(c)
 }

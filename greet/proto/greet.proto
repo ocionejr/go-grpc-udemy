@@ -24,4 +24,5 @@ message SumResponse {
 service GreetService {
   rpc Greet (GreetRequest) returns (GreetResponse);
   rpc SumNumbers (SumRequest) returns (SumResponse);
+  rpc GreetManyTimes (GreetRequest) returns (stream GreetResponse);
 }
