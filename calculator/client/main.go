@@ -21,5 +21,5 @@ func main() {
 
 	c := pb.NewCalculatorServiceClient(conn)
 
-	doAvg(c)
+	doSqrt(c, -2)
 }
